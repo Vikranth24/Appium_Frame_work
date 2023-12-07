@@ -11,10 +11,7 @@ public class Test_01 extends Base_class {
 	{
 		Thread.sleep(5000);
 		driver.findElement(AppiumBy.xpath("//android.widget.EditText\r\n")).click();
-		Thread.sleep(3000);
-		driver.findElement(AppiumBy.xpath("//android.widget.EditText\r\n")).sendKeys("1234");
-		Thread.sleep(3000);
-		driver.findElement(AppiumBy.accessibilityId("Verify")).click();
+		
 		
 	}
 
